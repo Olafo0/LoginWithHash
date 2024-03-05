@@ -99,6 +99,7 @@
             // 
             LoginPassword.Location = new Point(114, 192);
             LoginPassword.Name = "LoginPassword";
+            LoginPassword.PasswordChar = '*';
             LoginPassword.Size = new Size(146, 23);
             LoginPassword.TabIndex = 4;
             // 

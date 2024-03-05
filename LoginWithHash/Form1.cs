@@ -94,7 +94,7 @@ namespace LoginWithHash
             tempform.Size = new Size(200, 400);
             tempform.FormBorderStyle = FormBorderStyle.FixedSingle;
             tempform.AutoScroll = true;
-            foreach(var account in currentAccounts)
+            foreach (var account in currentAccounts)
             {
                 Label passwordLabel = new Label();
                 Label userLabel = new Label();
@@ -110,6 +110,7 @@ namespace LoginWithHash
                 tempform.Controls.Add(passwordLabel);
             }
             tempform.ShowDialog();
+
         }
     }
 }
